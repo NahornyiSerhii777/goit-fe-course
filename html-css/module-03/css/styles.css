@@ -23,7 +23,7 @@ h2 {
 
 .nav-site a {
   display: inline-block;
-  margin-right: 152px;
+  margin-right: 50px;
   text-transform: uppercase;
   font-weight: 400;
   text-decoration: none;
@@ -43,6 +43,36 @@ h2 {
 
 .nav-menu-link {
   display: inline;
+}
+
+.section-1 {
+  margin-left: 150px;
+}
+
+.section-2 {
+  margin-left: 150px;
+}
+
+.section-3 {
+  margin-left: 150px;
+}
+
+.section-1-div {
+  display: inline-block;
+  margin-right: 60px;
+  width: 420px;
+}
+
+.section-2-div {
+  display: inline-block;
+  margin-right: 60px;
+  width: 420px;
+}
+
+.section-3-div {
+  display: inline-block;
+  margin-right: 60px;
+  width: 420px;
 }
 
 button {
