@@ -1,0 +1,144 @@
+* {
+  outline: auto;
+}
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+header {
+  padding: 36px 0 106px 0;
+}
+
+.wraper {
+  margin: 0px auto;
+  width: 1110px;
+}
+
+.menu-li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: rgb(15, 1, 1);
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.menu-li a:hover,
+.menu-li a:focus {
+  color: #1abc9c;
+}
+
+.logo {
+  text-decoration: none;
+  float: left;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  color: #555252;
+  line-height: 32px;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.logo::first-letter {
+  font-weight: 900;
+  color: #1abc9c;
+}
+
+.logo:hover,
+.logo:focus {
+  color: #1abc9c;
+}
+
+.menu-ul {
+  float: right;
+  margin: 0;
+  padding-left: 0;
+}
+
+.menu-li {
+  float: left;
+  text-transform: uppercase;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+.menu-li:last-child {
+  margin-right: 0px;
+}
+
+.section-product {
+  margin: auto;
+  padding: 0;
+}
+
+.section-title {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Roboto";
+  font-weight: 900;
+  color: #515151;
+  font-size: 48px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section-title::after {
+  display: block;
+  content: "";
+  margin: 28px auto 92px;
+  width: 165px;
+  height: 7px;
+  background-color: #19bb9b;
+}
+
+.section-product-ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.section-product-li {
+  float: left;
+  width: 252px;
+}
+
+.section-product-li:not(:nth-child(4n)) {
+  margin-right: 34px;
+}
+
+.section-product-li:not(:nth-last-child(-n + 4)) {
+  margin-bottom: 30px;
+}
+
+.item-p {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.item-p:hover,
+.item-p:focus {
+  color: #1abc9c;
+  background-color: rgba(25, 187, 155, 0.7);
+}
+
+.name-item {
+  float: left;
+  padding-top: 12px;
+  padding-left: 12px;
+  text-transform: uppercase;
+  /* background-color: #323232; */
+  width: 188px;
+  height: 40px;
+}
+.price-product {
+  float: left;
+  padding-top: 12px;
+  padding-left: 12px;
+  text-transform: uppercase;
+  width: 40px;
+  height: 40px;
+}
