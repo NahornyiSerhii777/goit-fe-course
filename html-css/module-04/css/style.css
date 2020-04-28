@@ -1,23 +1,30 @@
-* {
+/* * {
   outline: auto;
-}
+} */
 .clearfix::after {
   display: table;
   content: "";
   clear: both;
 }
 
-header {
-  padding: 36px 0 106px 0;
+a {
+  text-decoration: none;
 }
 
+header {
+  padding: 36px 0 106px 0;
+  background-color: ;
+}
+
+img {
+  background-color: #e8effc;
+}
 .wraper {
   margin: 0px auto;
   width: 1110px;
 }
 
 .menu-li a {
-  text-decoration: none;
   font-size: 14px;
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
@@ -113,16 +120,17 @@ header {
 .section-product-li:not(:nth-last-child(-n + 4)) {
   margin-bottom: 30px;
 }
-
+img {
+  display: block;
+}
 .item-p {
   float: left;
   margin: 0;
   padding: 0;
 }
-.item-p:hover,
-.item-p:focus {
-  color: #1abc9c;
-  background-color: rgba(25, 187, 155, 0.7);
+
+.item-p:hover {
+  color: rgba(25, 187, 155, 0.7);
 }
 
 .name-item {
@@ -130,15 +138,92 @@ header {
   padding-top: 12px;
   padding-left: 12px;
   text-transform: uppercase;
-  /* background-color: #323232; */
+  background-color: #323232;
   width: 188px;
-  height: 40px;
+  height: 28px;
 }
 .price-product {
   float: left;
   padding-top: 12px;
   padding-left: 12px;
   text-transform: uppercase;
+  background-color: #8c8c8c;
   width: 40px;
-  height: 40px;
+  height: 28px;
+}
+
+.section-product-li a {
+  color: #fff;
+}
+
+.blog {
+  margin-top: 105px;
+}
+
+.blog {
+  padding-bottom: 82px;
+}
+.blog-items {
+  padding: 0px;
+  margin: 0px;
+}
+
+.blog-item {
+  display: inline-block;
+  float: left;
+  width: 350px;
+}
+
+.blog-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.blog-item-photo {
+  margin-bottom: 16px;
+}
+
+.blog-item-header {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(85, 82, 82);
+  line-height: 26px;
+  font-weight: 600;
+  margin: 0 0 26px 0;
+}
+
+.blog-item-header::after {
+  content: "";
+  display: block;
+  background-color: rgb(26, 188, 156);
+  width: 136px;
+  height: 4px;
+  margin-top: 10px;
+}
+
+.blog-item-paragraph {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(85, 82, 82);
+  line-height: 26px;
+  font-weight: 400;
+  margin: 0 0 12px 0;
+}
+
+.blog-item-button {
+  border-radius: 3px;
+  background-color: rgb(78, 198, 171);
+  width: 160px;
+  height: 52px;
+  cursor: pointer;
+  border: none;
+}
+
+.blog-item-button a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 26px;
+  text-align: center;
+  font-weight: 300;
 }
