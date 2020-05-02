@@ -146,6 +146,7 @@ img {
 
 .price-product {
   float: left;
+  margin: 0;
   padding-top: 12px;
   padding-left: 12px;
   text-transform: uppercase;
@@ -155,7 +156,7 @@ img {
 }
 
 .section-product-li:hover .item-div {
-  background: rgba(26, 188, 156, 1);
+  background: rgba(26, 188, 156, 0.5);
 }
 
 .section-product-li a {
