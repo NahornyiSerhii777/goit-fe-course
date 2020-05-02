@@ -1,6 +1,6 @@
-/* * {
+* {
   outline: auto;
-} */
+}
 .clearfix::after {
   display: table;
   content: "";
@@ -123,18 +123,19 @@ img {
 img {
   display: block;
 }
-.item-p {
+
+.item-div {
   float: left;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 900;
   margin: 0;
   padding: 0;
 }
 
-.item-p:hover {
-  color: rgba(25, 187, 155, 0.7);
-}
-
 .name-item {
   float: left;
+  margin: 0;
   padding-top: 12px;
   padding-left: 12px;
   text-transform: uppercase;
@@ -142,12 +143,13 @@ img {
   width: 188px;
   height: 28px;
 }
+
 .price-product {
   float: left;
   padding-top: 12px;
   padding-left: 12px;
   text-transform: uppercase;
-  background-color: #8c8c8c;
+  background-color: rgb(140, 140, 140);
   width: 40px;
   height: 28px;
 }
@@ -210,20 +212,20 @@ img {
 }
 
 .blog-item-button {
+  display: block;
+  margin-top: 12px;
+  text-align: center;
+  padding-top: 12px;
   border-radius: 3px;
   background-color: rgb(78, 198, 171);
   width: 160px;
-  height: 52px;
+  height: 38px;
   cursor: pointer;
   border: none;
-}
-
-.blog-item-button a {
   text-decoration: none;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
   color: rgb(255, 255, 255);
   line-height: 26px;
-  text-align: center;
   font-weight: 300;
 }
