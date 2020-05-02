@@ -1,6 +1,6 @@
-* {
+/* * {
   outline: auto;
-}
+} */
 .clearfix::after {
   display: table;
   content: "";
@@ -139,7 +139,7 @@ img {
   padding-top: 12px;
   padding-left: 12px;
   text-transform: uppercase;
-  background-color: #323232;
+  background-color: rgb(50, 50, 50);
   width: 188px;
   height: 28px;
 }
@@ -152,6 +152,10 @@ img {
   background-color: rgb(140, 140, 140);
   width: 40px;
   height: 28px;
+}
+
+.section-product-li:hover .item-div {
+  background: rgba(26, 188, 156, 1);
 }
 
 .section-product-li a {
