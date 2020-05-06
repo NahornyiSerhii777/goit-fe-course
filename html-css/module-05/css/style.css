@@ -16,9 +16,6 @@
 header {
   padding: 40px 0 36px 0;
 }
-/* .menu-nav {
-  margin: auto;
-} */
 
 .menu-li a {
   font-size: 14px;
@@ -136,6 +133,7 @@ header {
 }
 
 .button-left {
+  font-size: 0px;
   float: left;
   width: 104px;
   height: 104px;
@@ -146,11 +144,12 @@ header {
 }
 
 .button-right {
+  font-size: 0px;
   float: right;
   width: 104px;
   height: 104px;
   background-image: url(/img/icons/right-button.png);
-  border: 0;
+  border-style: none;
   padding: 0;
   background-color: rgba(26, 188, 156, 0.7);
 }
@@ -168,6 +167,211 @@ header {
   background-color: rgba(28, 145, 121, 1);
 }
 
-.new-collection {
+.new-collection-title {
+  font-size: 48px;
+  line-height: 1.2;
+  font-family: "Roboto", sans-serif;
+  color: rgb(81, 81, 81);
   text-transform: uppercase;
+  text-align: center;
+  margin: 0 0 84px 0;
+  padding: 0px;
+}
+
+.new-collection-title::after {
+  content: "";
+  display: block;
+  margin: 34px auto 0;
+  background-color: rgb(26, 188, 156);
+  width: 164px;
+  height: 8px;
+}
+
+.section-collection {
+  padding-top: 96px;
+  padding-bottom: 100px;
+}
+
+.collection-items {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.collection-item {
+  display: block;
+  width: 254px;
+  float: left;
+  margin: 0 30px 0 0;
+  position: relative;
+}
+
+.collection-item:last-child {
+  margin: 0;
+}
+
+.collection-item-link {
+  display: block;
+  position: relative;
+}
+
+.collection-item-box-image {
+  position: relative;
+}
+
+.collection-icon-overlay {
+  border-width: 10px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  background-color: rgba(0, 0, 0);
+  opacity: 0;
+  position: absolute;
+  width: 234px;
+  height: 262px;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.collection-item:focus .collection-icon-overlay,
+.collection-item:hover .collection-icon-overlay {
+  opacity: 0.549;
+}
+
+.icon-boxes {
+  display: block;
+  position: absolute;
+  width: 166px;
+  height: 108px;
+  z-index: 2;
+  top: 90px;
+  left: 50%;
+  transform: translatex(-50%);
+  padding: 0;
+  margin: 0;
+  font-size: 0px;
+}
+
+.icon-box {
+  display: inline-block;
+  font-size: 0px;
+  z-index: 3;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.icons {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #ffffff;
+  z-index: 4;
+  opacity: 0;
+  padding: 0;
+  margin: 0;
+  border-style: solid;
+  border-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+}
+
+.icon-box:not(:nth-last-child(-n + 2)) {
+  margin-right: 8px;
+}
+.icon-box:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.icon-heart {
+  background-image: url(../img/icons/hurt.png);
+}
+
+.icon-arov {
+  background-image: url(../img/icons/cross-arow.png);
+}
+
+.icon-clock {
+  background-image: url(../img/icons/clock.png);
+}
+
+.icon-cart {
+  background-color: rgb(50, 50, 50);
+  background-image: url(../img/icons/cart.png);
+  background-repeat: no-repeat;
+  width: 166px;
+  height: 50px;
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.collection-item:focus .icons,
+.collection-item:hover .icons {
+  opacity: 1;
+}
+
+.icons:focus,
+.icons:hover {
+  background-color: rgb(26, 188, 156);
+}
+
+.collection-item-box {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 32px;
+  background-color: rgb(50, 50, 50);
+  font-weight: 900;
+}
+
+.collection-item:focus .collection-item-box,
+.collection-item:hover .collection-item-box {
+  background-color: rgb(26, 188, 156);
+}
+
+.collection-item-header {
+  display: inline-block;
+  float: left;
+  max-width: 200px;
+
+  margin: 0px;
+  padding: 4px 0px 4px 12px;
+}
+
+.collection-item-price {
+  display: inline-block;
+  float: right;
+  text-align: center;
+  margin: 0px;
+  background-color: rgba(255, 255, 255, 0.439);
+  min-width: 54px;
+  padding: 4px 0px;
+}
+
+.rights-box {
+  min-height: 88px;
+}
+
+.rights {
+  text-align: center;
+  line-height: 28px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(254, 254, 254);
+  padding: 30px 0;
+  margin: 0;
+}
+
+.rights-color-text {
+  color: rgb(26, 188, 156);
 }
