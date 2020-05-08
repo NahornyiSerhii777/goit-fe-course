@@ -137,10 +137,10 @@ header {
   float: left;
   width: 104px;
   height: 104px;
-  background-image: url(/img/icons/left-button.png);
   border-style: none;
   padding: 0;
   background-color: rgba(26, 188, 156, 0.7);
+  background-image: url(/img/icons/left-button.png);
 }
 
 .button-right {
@@ -148,10 +148,10 @@ header {
   float: right;
   width: 104px;
   height: 104px;
-  background-image: url(/img/icons/right-button.png);
   border-style: none;
   padding: 0;
   background-color: rgba(26, 188, 156, 0.7);
+  background-image: url(/img/icons/right-button.png);
 }
 
 .button-slider-div {
