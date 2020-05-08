@@ -159,7 +159,7 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 3;
+  z-index: 35;
 }
 
 .button-hover:hover {
@@ -359,6 +359,8 @@ header {
 }
 
 .footer-box {
+  margin: 0px auto;
+  width: 1600px;
   text-align: center;
   background-color: #323232;
   height: 88px;
