@@ -1,9 +1,6 @@
 /* * {
   outline: auto;
 } */
-html {
-  overflow-x: hidden;
-}
 
 .clearfix::after {
   display: table;
@@ -73,21 +70,11 @@ header {
   margin-right: 0px;
 }
 
-.slider-image {
-  z-index: 1;
-  object-fit: cover;
-  min-width: 1110px;
-  max-width: 100%;
-  height: 600px;
-}
-
 .slider-div {
-  width: 1600px;
+  /* width: 1600px; */
+  text-align: center;
   position: relative;
   margin: 0 auto;
-  /* text-align: center; */
-  /* width: 0 auto; */
-  /* height: 0 auto; */
 }
 
 .slider-div::after {
@@ -99,10 +86,7 @@ header {
   position: absolute;
   left: 0;
   top: 0;
-  right: 0;
   z-index: 1;
-  /* text-align: center; */
-  margin: 0 auto;
 }
 
 .slider-text {
@@ -371,7 +355,7 @@ header {
 
 .footer-box {
   margin: 0px auto;
-  max-width: 1600px;
+  max-width: 100%;
   text-align: center;
   background-color: #323232;
   height: 88px;
