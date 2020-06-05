@@ -245,7 +245,7 @@
   left: 0%;
   width: 100%;
   height: 100%;
-  opacity: 0.9;
+  opacity: 0;
 }
 
 .social-icon-list {
@@ -257,13 +257,15 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  opacity: 0;
   z-index: 5;
 }
 
 .social-icon:not(:last-child) {
   margin-right: 1px;
 }
-.social-icon-facebook {
+
+.social-icon:nth-child(1) {
   display: block;
   width: 56px;
   height: 56px;
@@ -271,7 +273,7 @@
   background-color: #fce38a;
 }
 
-.social-icon-twitter {
+.social-icon:nth-child(2) {
   display: block;
   width: 56px;
   height: 56px;
@@ -279,7 +281,7 @@
   background-color: #fce38a;
 }
 
-.social-icon-pinterest {
+.social-icon:nth-child(3) {
   display: block;
   width: 56px;
   height: 56px;
@@ -287,10 +289,31 @@
   background-color: #fce38a;
 }
 
-.social-icon-instagram {
+.social-icon:nth-child(4) {
   display: block;
   width: 56px;
   height: 56px;
   background: url(/img/icons/instagram.png);
   background-color: #fce38a;
+}
+
+.name-link {
+  visibility: hidden;
+}
+
+.social-icon:hover {
+  background-color: rgb(149, 225, 211);
+}
+
+.team-cards-item:hover .teem-img-box::after {
+  opacity: 0.9;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  box-shadow: 10px 10px rgb(149, 225, 211);
+}
+
+.team-cards-item:hover .social-icon-list {
+  opacity: 1;
+  cursor: pointer;
 }
