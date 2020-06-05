@@ -269,7 +269,7 @@
   display: block;
   width: 56px;
   height: 56px;
-  background: url(/img/icons/facebook.png);
+  background: url(../module-06/img/icons/facebook.png);
   background-color: #fce38a;
 }
 
@@ -277,7 +277,7 @@
   display: block;
   width: 56px;
   height: 56px;
-  background: url(/img/icons/twitter.png);
+  background: url(../module-06/img/icons/twitter.png);
   background-color: #fce38a;
 }
 
@@ -285,7 +285,7 @@
   display: block;
   width: 56px;
   height: 56px;
-  background: url(/img/icons/pinterest.png);
+  background: url(../module-06/img/icons/pinterest.png);
   background-color: #fce38a;
 }
 
@@ -293,7 +293,7 @@
   display: block;
   width: 56px;
   height: 56px;
-  background: url(/img/icons/instagram.png);
+  background: url(../module-06/img/icons/instagram.png);
   background-color: #fce38a;
 }
 
