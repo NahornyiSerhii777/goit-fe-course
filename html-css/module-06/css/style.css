@@ -149,37 +149,37 @@
 
 .icon-clock::before {
   display: block;
-  content: url(/img/icons/icon-clock.png);
+  content: url(../img/icons/icon-clock.png);
   padding: 0 30px 0 20px;
 }
 
 .icon-trend::before {
   display: block;
-  content: url(/img/icons/icon-trend.png);
+  content: url(../img/icons/icon-trend.png);
   padding: 0 30px 0 20px;
 }
 
 .icon-monitor::before {
   display: block;
-  content: url(/img/icons/icon-monitor.png);
+  content: url(../img/icons/icon-monitor.png);
   padding: 0 30px 0 20px;
 }
 
 .icon-book::before {
   display: block;
-  content: url(/img/icons/icon-book.png);
+  content: url(../img/icons/icon-book.png);
   padding: 0 30px 0 20px;
 }
 
 .icon-house::before {
   display: block;
-  content: url(/img/icons/icon-house.png);
+  content: url(../img/icons/icon-house.png);
   padding: 0 30px 0 20px;
 }
 
 .icon-box::before {
   display: block;
-  content: url(/img/icons/icon-box.png);
+  content: url(../img/icons/icon-box.png);
   padding: 0 30px 0 20px;
 }
 
@@ -269,7 +269,7 @@
   display: block;
   width: 56px;
   height: 56px;
-  background: url(../module-06/img/icons/facebook.png);
+  background: url(../img/icons/facebook.png);
   background-color: #fce38a;
 }
 
@@ -277,7 +277,7 @@
   display: block;
   width: 56px;
   height: 56px;
-  background: url(../module-06/img/icons/twitter.png);
+  background: url(../img/icons/twitter.png);
   background-color: #fce38a;
 }
 
@@ -285,7 +285,7 @@
   display: block;
   width: 56px;
   height: 56px;
-  background: url(../module-06/img/icons/pinterest.png);
+  background: url(../img/icons/pinterest.png);
   background-color: #fce38a;
 }
 
@@ -293,7 +293,7 @@
   display: block;
   width: 56px;
   height: 56px;
-  background: url(../module-06/img/icons/instagram.png);
+  background: url(../img/icons/instagram.png);
   background-color: #fce38a;
 }
 
