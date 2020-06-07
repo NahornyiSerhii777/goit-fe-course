@@ -232,8 +232,14 @@
   text-align: center;
 }
 
+.team-cards {
+  margin-bottom: 82px;
+}
+
 .teem-img-box {
   position: relative;
+  /* width: 380px;
+  height: 470px; */
 }
 
 .teem-img-box::after {
@@ -308,12 +314,28 @@
 .team-cards-item:hover .teem-img-box::after {
   opacity: 0.9;
   position: absolute;
-  top: -10px;
-  left: -10px;
+  /* top: -10px;
+  left: -10px; */
+}
+
+.team-cards-item:hover .teem-img-box {
+  transform: translate(-10px, -10px);
   box-shadow: 10px 10px rgb(149, 225, 211);
+  transition: all 0.2s linear;
 }
 
 .team-cards-item:hover .social-icon-list {
   opacity: 1;
   cursor: pointer;
+}
+
+.footer-section {
+  display: flex;
+  border-top: 2px solid #e5e5e5;
+  justify-content: space-between;
+}
+
+.footer-copyright-link {
+  color: #f48b8b;
+  text-decoration: none;
 }
